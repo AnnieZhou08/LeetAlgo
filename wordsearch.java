@@ -11,10 +11,9 @@ public class Solution {
                 //if found an initial position, start searching for existance 
                 if (word.charAt(0) == board[i][j]){
                     result = exist (board, word, i, j, 0);
-                if (result){
-                    return result;
-                }
-                
+                    if (result){
+                        return result;
+                    }
                 }
             }
         }
