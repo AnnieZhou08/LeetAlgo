@@ -1,3 +1,7 @@
+//This converts the integer array passed in into an integer
+//Adds one to that integer
+//Then converts it back to an integer array
+//However in the process of array -> int, overflow error occurs when there are more than 9 digits
 public class Solution {
     public int[] plusOne(int[] digits) {
         int length = digits.length;
