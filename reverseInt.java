@@ -8,6 +8,7 @@ public class Solution {
         else{
             return result;
         }
+        //positive and negative cases
     }
     
     private int reverseone (int x){
@@ -20,7 +21,7 @@ public class Solution {
             while (x > 0){
                  if (result < 0 || result > Integer.MAX_VALUE/10 || (result==(Integer.MAX_VALUE/10) && (x%10>Integer.MAX_VALUE%10))){
                     return 0;
-                 }
+                 } //check for overflow
                 result = result * 10 + x%10;
                 x /= 10;
             }
