@@ -23,6 +23,8 @@ public class LinkedList {
         lst.addEnd("4");
         lst.addEnd("5");
         
+        lst.insert(new Node("6"), "1");
+        
         System.out.println(lst.findprevious("1").toString());
         System.out.println("hello");
         System.out.println(lst.toString());
@@ -136,6 +138,10 @@ class Slist{
        
        if (tempnode == null){
            tempnode = newnode;
+       }
+       if (tempnode.data.equals(input)){
+           newnode.next = tempnode;
+           this.list = newnode;
        }
        else{
            boolean found = false;
