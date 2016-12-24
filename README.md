@@ -16,6 +16,31 @@ Here are my attempts at some of the LeetCode algorithm questions.
 * Add Digits - ```addDigits.java``` & ```addDigitsI.java```
 * Assign Cookies - ```findContentChildren.java```
 * Move Zeroes - ```moveZeroes.java```
+* Minimum Moves to Equal Array Elements - ```minMoves.java```
+* Ransom Note - ```canConstruct.java```
+* Sum of Left Leaves - ```sumOfLeftLeaves.java```
+* Intersection of Two Arrays - ```intersection.java```
+* Delete Node in a Linked List - ```deleteNode.java```
+* First Unique Character in a String - ```firstUniqueChar.java```
+* Excel Sheet Column Number - ```titleToNumber.java```
+* Valid Anagram - ```isAnagram.java```
+* Majority Element - ```majorityElement.java```
+* Longest Palindrome - ```longestPalindrome.java```
+* Contains Duplicate - ```containsDuplicates.java```
+* Intersection of Two Arrays - ```intersect.java```
+* Roman to Integer - ```Int-Roman.java```
+* Number of Boomerangs - ```numberOfBoomerangs.java```
+* Repeated Substring Pattern - ```repeatedSubstringPattern.java```
+* Power of Two - ```isPowerOfTwoI.java``` & ```isPowerOfTwoII.java``` & ```isPowerOfTwoIII.java```
+* Happy Number - ```isHappy.java```
+* Number of Segments in a String - ```countSegments.java```
+* Remove Duplicates from Sorted List - ```removeDuplicatesSorted.java``` & ```remove Duplicates.java```
+* Path Sum III - ```pathSum.java```
+* Climbing Stairs - ```climbStairsI.java``` & ```climbStairsII.java```
+
+
+
+
 
 
 
