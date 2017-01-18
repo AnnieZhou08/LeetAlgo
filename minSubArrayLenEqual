@@ -1,0 +1,23 @@
+public class Solution {
+    public int minSubArrayLen(int s, int[] nums) {
+        int len = Integer.MAX_VALUE;
+        int start = 0;
+        int end = 0;
+        while(end < nums.length){
+            if(nums[end] == s){
+                len = Math.min(len, end-start+1);
+                s += nums[start];
+                s -= nums[end];
+                end++;
+                start++;
+            }else if(nums[end] > s){
+                s += nums[start];
+                start++;
+            }else if(nums[end] < s){
+                s -= nums[end];
+                end++;
+            }
+        }
+        return len == Integer.MAX_VALUE ? 0 : len;
+    }
+}
